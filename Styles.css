@@ -1,0 +1,10 @@
+/* styles.css */
+div {
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
