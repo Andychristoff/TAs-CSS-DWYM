@@ -1,0 +1,43 @@
+   
+@media (min-width: 1440px)  {
+   body {
+        background-color: red;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .imagen {
+        width: 50%;
+    }
+}
+/* Media query para pantallas medianas (ancho entre 768px y 1440px) */
+@media (max-width: 1440px) and (min-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .imagen {
+        width: 70%;
+    }
+}
+
+/* Media query para pantallas pequeñas (ancho menor a 768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .imagen {
+        width: 100%;
+    }
+}
